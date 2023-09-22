@@ -1,0 +1,11 @@
+
+A = input('Enter number A: ');
+B = input('Enter number B: ');
+
+smaller_number = min(A, B);
+
+fprintf('\n');
+for i = 0:2:smaller_number
+    fprintf('%d\n', i);
+end
+fprintf('\n');
