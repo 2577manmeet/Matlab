@@ -1,0 +1,13 @@
+
+size = input('Enter the size of the triangle: ');
+
+if size <= 0
+    fprintf('MUST BE A + NUMBER \n');
+else
+    for row = 1:size
+        for col = 1:size
+            fprintf('* ');
+        end
+        fprintf('\n');
+    end
+end
